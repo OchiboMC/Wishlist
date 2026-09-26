@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:planks",
+    "minecraft:stick",
+    "minecraft:cobblestone",
+    "#forge:ingots"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "wishlist",
+  "version": "${version}",
+  "name": "Wishlist",
+  "description": "Recipe-based material wishlists",
+  "authors": ["OchiboMC"],
+  "environment": "client",
+  "mixins": ["wishlist.mixins.json"],
+  "entrypoints": {
+    "client": ["net.ochibo.wishlist.WishlistMod"],
+    "emi": ["net.ochibo.wishlist.client.integration.emi.WishlistEmiPlugin"],
+    "jei_mod_plugin": ["net.ochibo.wishlist.client.integration.jei.WishlistJeiPlugin"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "emi": "*",
+    "jei": "*"
+  }
+}

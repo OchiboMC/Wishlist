@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:planks",
+    "minecraft:stick",
+    "minecraft:cobblestone",
+    { "id": "#forge:ingots", "required": false },
+    { "id": "#c:ingots", "required": false }
+  ]
+}

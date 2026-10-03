@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ochibo.wishlist.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "IndependentUiRenderMixin",
+    "MinecraftScreenMixin",
+    "AbstractContainerScreenMixin",
+    "ContainerScreenAccessor",
+    "RecipeBookComponentAccessor",
+    "ResultSlotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
